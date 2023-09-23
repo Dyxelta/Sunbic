@@ -1,0 +1,132 @@
+.registernav{
+    text-decoration: underline;
+    text-decoration-color: #ffcd00;
+}
+
+.content{
+    background-color: #d6d6d6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headimg{
+    background-image: url(../asset/registerimg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -65px;
+    -webkit-text-stroke: .3px #000000;
+}
+
+.headimg h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffcd00;
+}
+
+.headimg p{
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffcd00;
+}
+
+.regis{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 90%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.regishead{
+    font-family: Roboto Slab;
+    text-align: center;
+}
+
+.regishead h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffcd00;
+}
+
+.regishead p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.register{
+    border: 2px solid #ffcd00;
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.input{
+    margin-left: 40px;
+    font-family: Open Sans;
+}
+
+.input label{
+    font-size: 16px;
+    font-weight: 500;
+    width: 80px;
+    display: inline-block;
+}
+
+.input input{
+    width: 60%;
+    height: 24px;
+    background: transparent;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.terms{
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Open Sans;
+    margin-left: 36px;
+}
+
+.terms input{
+    width: 16px;
+    height: 16px;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.button{
+    background: transparent;
+    border: 2px solid #ffcd00;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffcd00;
+    width: 30%;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.button:hover{
+    background-color: #ffcd00;
+    color: #FFFFFF;
+}
